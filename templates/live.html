@@ -16,11 +16,13 @@
             </tr>
         {% endfor %}
     </table>
+
+    <a class="btn btn-warning home" href="/">На главную</a>
     <div class="counter">
         {{ game.counter }}
-        <a class="btn btn-warning home" href="/">На главную</a>
-        <a class="btn btn-info refresh" href="">Обновить</a>
     </div>
+    <a class="btn btn-info refresh" href="">Обновить</a>
+
 {% endblock %}
 
 {% block scripts %}
